@@ -1,38 +1,63 @@
+body {
+  background-color: #0090b1;
+}
+
 .App {
-  text-align: center;
+  background-color: white;
+  width: 400px;
+  margin: 20px auto;
+  min-height: 80vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.crossed {
+  text-decoration: line-through 2px red;
+  background-color: #d3e5fb;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul, li {
+  list-style-type: none;
+  font-family: 'Jura', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1 {
+  font-family: 'Jura', sans-serif;
+  text-align: center ;
+  margin-top: 0;
+}
+
+
+
+input {
+  font-family: 'Jura', sans-serif;
+  width: 350px;
+  padding: 5px;
+  margin: 20px;
+  border: #0090b1 1px solid;
+}
+
+.btn {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.btnOne, .btnTwo {
+  width: 200px;
+  padding: 5px;
+  font-family: 'Jura', sans-serif;
+  border: none;
   color: white;
+  font-size: 16px;
 }
 
-.App-link {
-  color: #61dafb;
+.btnOne {
+  background-color: #df7e1f;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btnTwo {
+  background-color: #d44853;
+}
+
+.women {
+  margin-left: 100px;
 }
